@@ -3,5 +3,122 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+    outline: none;
+    
 }
+
+.logo-image {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
+
+main {
+    background: #F4F4F4;
+    margin: 0 auto 40px;
+    width: 375px;
+    border-radius: 20px;
+    padding: 30px 24px 20px;
+}
+
+label {
+    color: #777777;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+select, input {
+    background: #ffffff;
+    border: 1px solid #888888;
+    height: 48px;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 24px;
+    appearance: none;
+    padding-left: 18px;
+    font-weight: 700;
+    font-size: 16px;
+    color: #555555;
+    cursor: pointer;
+}
+
+button {
+    background-color: #772FD3;
+    height: 48px;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    margin-top: 36px;
+    padding: 12px;
+    border-radius: 20px;
+    border: 1px solid #772fd3;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+
+}
+
+.arrow-img {
+    margin: 15px 0;
+
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+}
+
+.currency-value {
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.caixa-video {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+}
+
+video {
+    position: fixed;
+    min-width: 100%;
+    min-height: 100%;
+    position: fixed;
+    top: 0;
+}
+
+.mascara {
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.2) 50%, rgba(10, 12, 16, 0.99) 85%);
+    position: fixed;
+    top: 0;
+}
+
 
