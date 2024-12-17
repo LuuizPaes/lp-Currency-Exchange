@@ -6,7 +6,7 @@ Este é um conversor de moedas desenvolvido com HTML, CSS e JavaScript. Ele tem 
 (https://luuizpaes.github.io/lp-Currency-Exchange/)
 
 ## Funcionalidades
-- Campo para converter "De" moeda "Para" outra moeda.
+- Campo para converter "De" uma moeda "Para" outra moeda.
 - Campo para inserir os valores.
 - Botão para gerar a conversão das moedas.
 
